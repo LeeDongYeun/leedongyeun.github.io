@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+I'm an AI Researcher at [Klleon](https://klleon.io/).
 
 
 ## Publications
