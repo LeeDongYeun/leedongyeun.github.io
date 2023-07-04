@@ -7,9 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm an AI Researcher at [Klleon](https://klleon.io/), where I work on computer vision and machine learning. I received M.S. degree at [KAIST, Korea](https://www.kaist.ac.kr/), under the supervision of Prof. [Junmo Kim](http://siit.kaist.ac.kr/Faculty).
+I'm an AI Researcher at [Klleon](https://klleon.io/), where I work on computer vision and machine learning. 
+I received M.S. degree at [KAIST](https://www.kaist.ac.kr/), under the supervision of Prof. [Junmo Kim](http://siit.kaist.ac.kr/Faculty).
 
-I'm highly interested in building real-world applicable ML systems. My research interests include machine learning and computer vision. I currently focus on the following research areas:
+I'm highly interested in building real-world applicable ML systems. My research interests include computer vision and machine learning, particularly **image & video synthesis**. I currently focus on the following research areas:
  - 3D-Aware Image Synthesis
  - Neural Talking Head Synthesis
  - Audio Driven Talking Head Synthesis
@@ -21,7 +22,7 @@ Doyeon Kim, **Dongyeun Lee**, Donggyu Joo, Junmo Kim \\
 <span style="color:darkred">**ICIP**</span> **2023**
 
 - **<font size="4">Fix the Noise: Disentangling Source Feature for Controllable Domain Translation</font>**
-[[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Lee_Fix_the_Noise_Disentangling_Source_Feature_for_Controllable_Domain_Translation_CVPR_2023_paper.html) \\
+[[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Lee_Fix_the_Noise_Disentangling_Source_Feature_for_Controllable_Domain_Translation_CVPR_2023_paper.html) [[code]](https://github.com/LeeDongYeun/FixNoise) \\
 **Dongyeun Lee**, Jae Young Lee, Doyeon Kim, Jaehyun Choi, Jaejun Yoo, Junmo Kim \\
 <span style="color:darkred">**CVPR**</span> **2023**
 
