@@ -1,7 +1,9 @@
 # main links
-# main:
-#  - title: "About"
-#    url: /
+main:
+ - title: "Home"
+   url: https://leedongyeun.github.io/
+ - title: "Publications"
+   url: https://leedongyeun.github.io/#publications
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
