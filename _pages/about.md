@@ -32,25 +32,21 @@ Doyeon Kim, **Dongyeun Lee**, Donggyu Joo, Junmo Kim \\
 <span style="color:darkred">**CVPRW**</span> **2022** (AI for Content Creation, **Best Paper Award**, **2.56%**)
 
 ## Work Experiences
-- AI Researcher, **Klleon AI Research**, Seoul, South Korea \\
-May. 2022 - Current
+- AI Researcher, **Klleon AI Research**, Seoul, South Korea, May. 2022 - Current
   - Audio Driven Talking Head Synthesis
   - Explicit Controllable 3D-Aware Talking Head Synthesis
 
-- Research Intern, **Vision and Learning Laboratory, KAIST**, Daejeon, South Korea \\
-Jan. 2020 - Jun. 2020
+- Research Intern, **Vision and Learning Laboratory, KAIST**, Daejeon, South Korea, Jan. 2020 - Jun. 2020
   - Makeup Style Transfer
 
-- AI Researcher, **Dabeeo**, Seoul, South Korea
-Apr. 2019 - Aug. 2019 \\
+- AI Researcher, **Dabeeo**, Seoul, South Korea, Apr. 2019 - Aug. 2019
   - Arial Image Segmentation & Change Detection.
 
 ## Education
-- **M.S.** in Electrical Engineering, **Korea Advanced Institute of Science and Technology (KAIST)** \\
-Mar. 2021 - Aug. 2022
+- **M.S.** in Electrical Engineering, **Korea Advanced Institute of Science and Technology (KAIST)**, Mar. 2021 - Aug. 2022
 
 - **B.S.** in Computer Science, **Korea Advanced Institute of Science and Technology (KAIST)** \\
-Mar. 2016 - Feb. 2021
+<p style='text-align: right;'>Mar. 2016 - Feb. 2021</p>
 
 # Awards
 - [Best Paper Award](images/CVPRW2022_award.jpeg), CVPR 2022 Workshops on AI for Content Creation, 1500$ Sponsored by Google
