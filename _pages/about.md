@@ -42,5 +42,3 @@ Doyeon Kim, **Dongyeun Lee**, Donggyu Joo, Junmo Kim \\
 - **M.S.** in Electrical Engineering, **Korea Advanced Institute of Science and Technology (KAIST)**, <font size="3">Mar. 2021 - Aug. 2022</font>
 
 - **B.S.** in Computer Science, **Korea Advanced Institute of Science and Technology (KAIST)**, <font size="3">Mar. 2016 - Feb. 2021</font>
-
-## Projects
