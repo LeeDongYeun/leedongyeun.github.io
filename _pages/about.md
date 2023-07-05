@@ -39,13 +39,14 @@ Doyeon Kim, **Dongyeun Lee**, Donggyu Joo, Junmo Kim \\
 - Research Intern, **Vision and Learning Laboratory, KAIST**, Daejeon, South Korea, Jan. 2020 - Jun. 2020
   - Makeup Style Transfer
 
-AI Researcher, **Dabeeo**, Seoul, South Korea, Apr. 2019 - Aug. 2019 \\
-Arial Image Segmentation & Change Detection <p style='text-align: right;'>Apr. 2019 - Aug. 2019</p>
+- AI Researcher, **Dabeeo**, Seoul, South Korea, Apr. 2019 - Aug. 2019
+  - Arial Image Segmentation & Change Detection 
+<!-- <p style='text-align: right;'>Apr. 2019 - Aug. 2019</p> -->
 
 ## Education
-- **M.S.** in Electrical Engineering, **Korea Advanced Institute of Science and Technology (KAIST)**, [Mar. 2021 - Aug. 2022]
+- **M.S.** in Electrical Engineering, **Korea Advanced Institute of Science and Technology (KAIST)**, Mar. 2021 - Aug. 2022
 
-- **B.S.** in Computer Science, **Korea Advanced Institute of Science and Technology (KAIST)**, Mar. 2016 - Feb. 2021
+- **B.S.** in Computer Science, **Korea Advanced Institute of Science and Technology (KAIST)**, <font size="2">Mar. 2016 - Feb. 2021</font>
 
 # Awards
 - [Best Paper Award](images/CVPRW2022_award.jpeg), CVPR 2022 Workshops on AI for Content Creation, 1500$ Sponsored by Google
