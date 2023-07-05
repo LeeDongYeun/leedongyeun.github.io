@@ -32,15 +32,20 @@ Doyeon Kim, **Dongyeun Lee**, Donggyu Joo, Junmo Kim \\
 <span style="color:darkred">**CVPRW**</span> **2022** (AI for Content Creation, **Best Paper Award**)
 
 ## Work Experiences
-- AI Researcher, **Klleon AI Research**, Seoul, South Korea <div style="text-align: right">May. 2022 - Current></div>
+- AI Researcher, **Klleon AI Research**, Seoul, South Korea \\ 
+<font size="2">May. 2022 - Current</font>
 
-- Research Intern, **Vision and Learning Laboratory, KAIST**, Daejeon, South Korea <div style="text-align: right">Jan. 2020 - Jun. 2020</div>
+- Research Intern, **Vision and Learning Laboratory, KAIST**, Daejeon, South Korea \\
+ <font size="2">Jan. 2020 - Jun. 2020</font>
 
-- AI Researcher, **Dabeeo**, Seoul, South Korea <div style="text-align: right">Apr. 2019 - Aug. 2019</div>
+- AI Researcher, **Dabeeo**, Seoul, South Korea \\
+<font size="2">Apr. 2019 - Aug. 2019</font>
 
 ## Education
-- **M.S.** in Electrical Engineering, **Korea Advanced Institute of Science and Technology (KAIST)** <div style="text-align: right">Mar. 2021 - Aug. 2022</div>
+- **M.S.** in Electrical Engineering, **Korea Advanced Institute of Science and Technology (KAIST)** \\
+<font size="2">Mar. 2021 - Aug. 2022</font>
 
-- **B.S.** in Computer Science, **Korea Advanced Institute of Science and Technology (KAIST)** <div style="text-align: right">Mar. 2016 - Feb. 2021</div>
+- **B.S.** in Computer Science, **Korea Advanced Institute of Science and Technology (KAIST)** \\
+<font size="2">Mar. 2016 - Feb. 2021</font>
 
 ## Projects
