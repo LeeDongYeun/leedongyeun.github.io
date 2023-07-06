@@ -48,5 +48,5 @@ Doyeon Kim, **Dongyeun Lee**, Donggyu Joo, Junmo Kim \\
 
 - **B.S.** in Computer Science, **Korea Advanced Institute of Science and Technology (KAIST)**, Mar. 2016 - Feb. 2021
 
-# Awards
+## Awards
 - [Best Paper Award](images/CVPRW2022_award.jpeg), CVPR 2022 Workshops on AI for Content Creation, 1500$ Sponsored by Google
