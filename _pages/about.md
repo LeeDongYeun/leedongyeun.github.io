@@ -39,7 +39,7 @@ Doyeon Kim, **Dongyeun Lee**, Donggyu Joo, Junmo Kim \\
 - Research Intern, **Vision and Learning Laboratory, KAIST**, Daejeon, South Korea, Jan. 2020 - Jun. 2020
   - Makeup Style Transfer
 
-- AI Researcher, **Dabeeo**, Seoul, South Korea, Apr. 2019 - Aug. 2019
+- Research Intern, **Dabeeo**, Seoul, South Korea, Apr. 2019 - Aug. 2019
   - Arial Image Segmentation & Change Detection 
 <!-- <p style='text-align: right;'>Apr. 2019 - Aug. 2019</p> -->
 
