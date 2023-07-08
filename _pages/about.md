@@ -40,7 +40,7 @@ Doyeon Kim, **Dongyeun Lee**, Donggyu Joo, Junmo Kim \\
   - Makeup Style Transfer
 
 - Research Intern, **Dabeeo**, Seoul, South Korea, Apr. 2019 - Aug. 2019
-  - Arial Image Segmentation & Change Detection 
+  - Arial Image Change Detection and Object Detection
 <!-- <p style='text-align: right;'>Apr. 2019 - Aug. 2019</p> -->
 
 ## Education
