@@ -4,6 +4,8 @@ main:
    url: https://leedongyeun.github.io/
  - title: "Publications"
    url: https://leedongyeun.github.io/#publications
+ - title: "CV"
+   url: "images/CV_DongyeunLee.pdf"  
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
