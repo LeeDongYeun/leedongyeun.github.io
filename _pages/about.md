@@ -17,6 +17,10 @@ I'm highly interested in building real-world applicable ML systems. My research 
  - Diffusion Models
 
 ## Publications
+- **<font size="4">RADIO: Reference-Agnostic Dubbing Video Synthesis</font>** \\
+**Dongyeun Lee<sup>*</sup>**, Chaewon Kim<sup>*</sup>, Sangjoon Yu, Jaejun Yoo<sup>&dagger;</sup>, Gyeong-Moon Park<sup>&dagger;</sup> \\
+<span style="color:darkred">**Arxiv Preprint**</span> **2023**
+
 - **<font size="4">Training Cartoonization Network without Cartoon</font>** \\
 Doyeon Kim, **Dongyeun Lee**, Donggyu Joo, Junmo Kim \\
 <span style="color:darkred">**ICIP**</span> **2023**
