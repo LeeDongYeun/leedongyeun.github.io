@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm Research Scientist at [Information & Electronics Research Institute, KAIST](https://www.kaist.ac.kr/), where I work on computer vision and machine learning. 
+I'm Research Scientist at [Statistical Inference and Information Theory](http://siit.kaist.ac.kr/) in Information & Electronics Research Institute, [KAIST](https://www.kaist.ac.kr/), where I work on computer vision and machine learning. 
 I received M.S. degree at [KAIST](https://www.kaist.ac.kr/), under the supervision of Prof. [Junmo Kim](http://siit.kaist.ac.kr/Faculty).
 
 I'm highly interested in building real-world applicable ML systems. My research interests include computer vision and machine learning, particularly **image & video synthesis**. I currently focus on the following research areas:
@@ -36,7 +36,7 @@ Doyeon Kim, **Dongyeun Lee**, Donggyu Joo, Junmo Kim \\
 <span style="color:darkred">**CVPRW**</span> **2022** (AI for Content Creation, **Best Paper Award**, **2.56%**)
 
 ## Work Experiences
-- Research Scientist, **Information & Electronics Research Institute, KAIST**, Daejeon, South Korea, Apr. 2024 - Current
+- Research Scientist, **Statistical Inference and Information Theory in Information & Electronics Research Institute, KAIST**, Daejeon, South Korea, Apr. 2024 - Current
   
 - AI Researcher, **Klleon AI Research**, Seoul, South Korea, May. 2022 - Mar. 2024
   - Audio Driven Talking Head Synthesis
