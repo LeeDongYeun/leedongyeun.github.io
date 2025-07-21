@@ -10,13 +10,14 @@ redirect_from:
 I'm Research Scientist at [Statistical Inference and Information Theory](http://siit.kaist.ac.kr/) in Information & Electronics Research Institute, [KAIST](https://www.kaist.ac.kr/), where I work on computer vision and machine learning. 
 I received M.S. degree at [KAIST](https://www.kaist.ac.kr/), under the supervision of Prof. [Junmo Kim](http://siit.kaist.ac.kr/Faculty).
 
-I'm highly interested in building real-world applicable ML systems. My research interests include computer vision and machine learning, particularly **image & video synthesis**. I currently focus on the following research areas:
- - 3D-Aware Image Synthesis
- - Neural Talking Head Synthesis
- - Audio Driven Talking Head Synthesis
- - Diffusion Models
+While my earlier research focused on computer vision, with a particular interest in **image & video synthesis**, my current work has shifted toward building more efficient and practical machine learning systems. My research interests now lie in **quantization** and **efficient ML**.
+
 
 ## Publications
+- **<font size="4">DMQ: Dissecting Outliers of Diffusion Models for Post-Training Quantization</font>** [[paper]](https://arxiv.org/abs/2507.12933) [[code]](https://github.com/LeeDongYeun/dmq) \\
+**Dongyeun Lee<sup></sup>**, Jiwan Hur, Hyounguk Shon, Jae Young Lee, Junmo Kim \\
+<span style="color:darkred">**ICCV**</span> **2025**
+
 - **<font size="4">RADIO: Reference-Agnostic Dubbing Video Synthesis</font>** [[paper]](https://arxiv.org/abs/2309.01950) \\
 **Dongyeun Lee<sup>*</sup>**, Chaewon Kim<sup>*</sup>, Sangjoon Yu, Jaejun Yoo<sup>&dagger;</sup>, Gyeong-Moon Park<sup>&dagger;</sup> \\
 <span style="color:darkred">**WACV**</span> **2024**
