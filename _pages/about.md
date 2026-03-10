@@ -7,16 +7,28 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm Research Scientist at [Statistical Inference and Information Theory](http://siit.kaist.ac.kr/) in Information & Electronics Research Institute, [KAIST](https://www.kaist.ac.kr/), where I work on computer vision and machine learning. 
+I am a PhD student at [Statistical Inference and Information Theory](http://siit.kaist.ac.kr/) (SIIT), [KAIST](https://www.kaist.ac.kr/), supervised by Prof. [Junmo Kim](http://siit.kaist.ac.kr/Faculty). 
 I received M.S. degree at [KAIST](https://www.kaist.ac.kr/), under the supervision of Prof. [Junmo Kim](http://siit.kaist.ac.kr/Faculty).
 
 While my earlier research focused on computer vision, with a particular interest in **image & video synthesis**, my current work has shifted toward building more efficient and practical machine learning systems. My research interests now lie in **quantization** and **efficient ML**.
 
 
 ## Publications
+- **<font size="4">ConceptPrism: Concept Disentanglement in Personalized Diffusion Models via Residual Token Optimization</font>** [[paper]](https://arxiv.org/abs/2602.19575) \\
+Minseo Kim, Minchan Kwon, **Dongyeun Lee<sup></sup>**, Junmo Kim \\
+<span style="color:darkred">**CVPR**</span> **2026**
+
+- **<font size="4">Inlier-Centric Post-Training Quantization for Object Detection Models</font>** [[paper]](https://arxiv.org/abs/2602.03472) \\
+Minsu Kim, **Dongyeun Lee<sup></sup>**, Jaemyung Yu, Jiwan Hur, Giseop Kim, Junmo Kim \\
+<span style="color:darkred">**ICLR**</span> **2026**
+
 - **<font size="4">DMQ: Dissecting Outliers of Diffusion Models for Post-Training Quantization</font>** [[paper]](https://arxiv.org/abs/2507.12933) [[code]](https://github.com/LeeDongYeun/dmq) \\
 **Dongyeun Lee<sup></sup>**, Jiwan Hur, Hyounguk Shon, Jae Young Lee, Junmo Kim \\
 <span style="color:darkred">**ICCV**</span> **2025**
+
+- **<font size="4">Comparison Reveals Commonality: Customized Image Generation through Contrastive Inversion</font>** [[paper]](https://arxiv.org/abs/2508.07755) \\
+Minseo Kim, Minchan Kwon, **Dongyeun Lee<sup></sup>**, Junmo Kim \\
+<span style="color:darkred">**CVPRW**</span> **2025**
 
 - **<font size="4">RADIO: Reference-Agnostic Dubbing Video Synthesis</font>** [[paper]](https://arxiv.org/abs/2309.01950) \\
 **Dongyeun Lee<sup>*</sup>**, Chaewon Kim<sup>*</sup>, Sangjoon Yu, Jaejun Yoo<sup>&dagger;</sup>, Gyeong-Moon Park<sup>&dagger;</sup> \\
