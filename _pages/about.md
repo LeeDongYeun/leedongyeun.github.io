@@ -14,6 +14,10 @@ While my earlier research focused on computer vision, with a particular interest
 
 
 ## Publications
+- **<font size="4">HyperVAttention: Efficient Sparse Attention with Spatio-Temporal Clustering for Video Diffusion</font>** [[paper]](https://arxiv.org/abs/2607.03012) \\
+**Dongyeun Lee<sup></sup>**, Amir Zandieh, Vahab Mirrokni, Junmo Kim<sup>&dagger;</sup>, Insu Han<sup>&dagger;</sup> \\
+<span style="color:darkred">**Under Review**</span>
+
 - **<font size="4">ConceptPrism: Concept Disentanglement in Personalized Diffusion Models via Residual Token Optimization</font>** [[paper]](https://arxiv.org/abs/2602.19575) \\
 Minseo Kim, Minchan Kwon, **Dongyeun Lee<sup></sup>**, Junmo Kim \\
 <span style="color:darkred">**CVPR**</span> **2026**
