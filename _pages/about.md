@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a PhD student at [Statistical Inference and Information Theory](http://siit.kaist.ac.kr/) (SIIT), [KAIST](https://www.kaist.ac.kr/), supervised by Prof. [Junmo Kim](http://siit.kaist.ac.kr/Faculty). 
+I am a Ph.D. student at [Statistical Inference and Information Theory](http://siit.kaist.ac.kr/) (SIIT), [KAIST](https://www.kaist.ac.kr/), supervised by Prof. [Junmo Kim](http://siit.kaist.ac.kr/Faculty). 
 I received M.S. degree at [KAIST](https://www.kaist.ac.kr/), under the supervision of Prof. [Junmo Kim](http://siit.kaist.ac.kr/Faculty).
 
 While my earlier research focused on computer vision, with a particular interest in **image & video synthesis**, my current work has shifted toward building more efficient and practical machine learning systems. My research interests now lie in **quantization** and **efficient ML**.
@@ -53,7 +53,7 @@ Doyeon Kim, **Dongyeun Lee**, Donggyu Joo, Junmo Kim \\
 <span style="color:darkred">**CVPRW**</span> **2022** (AI for Content Creation, **Best Paper Award**, **2.56%**)
 
 ## Work Experiences
-- Research Scientist, **Statistical Inference and Information Theory in Information & Electronics Research Institute, KAIST**, Daejeon, South Korea, Apr. 2024 - Current
+- Research Scientist, **Statistical Inference and Information Theory in Information & Electronics Research Institute, KAIST**, Daejeon, South Korea, Apr. 2024 - Feb. 2026
   
 - AI Researcher, **Klleon AI Research**, Seoul, South Korea, May. 2022 - Mar. 2024
   - Audio Driven Talking Head Synthesis
@@ -67,6 +67,8 @@ Doyeon Kim, **Dongyeun Lee**, Donggyu Joo, Junmo Kim \\
 <!-- <p style='text-align: right;'>Apr. 2019 - Aug. 2019</p> -->
 
 ## Education
+- **Ph.D.** in Electrical Engineering, **Korea Advanced Institute of Science and Technology (KAIST)**, Mar. 2026 - Current
+
 - **M.S.** in Electrical Engineering, **Korea Advanced Institute of Science and Technology (KAIST)**, Mar. 2021 - Aug. 2022
 
 - **B.S.** in Computer Science, **Korea Advanced Institute of Science and Technology (KAIST)**, Mar. 2016 - Feb. 2021
