@@ -1,0 +1,430 @@
+/*
+ * Palette overrides are kept separate so VS Code Live Preview always serves
+ * the latest colors even when styles.css is open in an older editor buffer.
+ */
+/* Restored blue palette. */
+:root {
+  --accent: #2563eb; /*#2962ff*/
+  --accent-hover: #003adc;
+  --accent-dark: #224878;
+  --bullet: #2b4bb4;
+  --orange: #7698c2;
+  --title: #263e5b;
+  --ink: #3a4e66;
+  --muted: rgba(58, 78, 102, 0.82);
+  --line: #dce5ee;
+  --page: #f7f7f7;
+  --card: #fff;
+  --shadow: 0 20px 40px rgba(42, 65, 91, 0.08);
+  --icon: #2b4bb4;
+  --nav-start: #001f5f;
+  --nav-end: #2b4bb4;
+  --button-text: #2563eb;
+  --button-bg: #eff6ff;
+  --button-border: #bfdbfe;
+  --button-hover-text: #fff;
+  --button-hover-bg: #2563eb;
+  --button-hover-border: #2563eb;
+  --venue: #3a4e66;
+  --award: #971c1c;
+  --footer: rgba(58, 78, 102, 0.52);
+}
+
+/* Previous warm palette inspired by youngwoo-git.github.io.
+ * Kept here for easy restoration; this selector is intentionally inactive. */
+:root[data-theme="warm-reference"] {
+  --accent: oklch(0.4 0.085 55);
+  --accent-hover: oklch(0.3 0.1 55);
+  --accent-dark: oklch(0.3 0.1 55);
+  --bullet: oklch(0.44 0.09 55);
+  --orange: oklch(0.62 0.1 65);
+  --title: #1e1c18;
+  --ink: #3d3a33;
+  --muted: #6b675e;
+  --line: #e5e1d6;
+  /* Reference base background: #faf9f6 */
+  --page: #f3efe6;
+  --card: #fffdf9;
+  --shadow: 0 1px 4px rgba(30, 28, 24, 0.06), 0 8px 24px rgba(30, 28, 24, 0.06);
+  --icon: oklch(0.44 0.09 55);
+  --nav-start: oklch(0.48 0.085 55);
+  --nav-end: oklch(0.35 0.095 55);
+  --button-text: oklch(0.4 0.085 55);
+  --button-bg: oklch(0.96 0.02 80);
+  --button-border: #ddd9cf;
+  --button-hover-text: oklch(0.3 0.1 55);
+  --button-hover-bg: oklch(0.96 0.02 80);
+  --button-hover-border: oklch(0.4 0.085 55);
+  /* Reference venue accent: oklch(0.55 0.11 45) */
+  --venue: var(--ink);
+  --award: oklch(0.48 0.12 35);
+  --footer: #8a8578;
+}
+
+html,
+body {
+  /* Previous: background: #f7f7f7; */
+  background: var(--page);
+}
+
+.hero__image {
+  /* Previous position: 50% 45%; previous images remain in styles.css. */
+  background-image: url("assets/hyunHouse.jpg");
+  background-position: 50% 70%;
+}
+
+a {
+  /* Previous: color: #2962ff; */
+  color: var(--accent);
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+.skip-link {
+  background: var(--accent-dark);
+}
+
+.social-link:hover,
+.contact-item__copy > a:hover,
+.section-nav__link:hover,
+.silent-link:hover {
+  color: var(--accent-hover);
+}
+
+.contact-item:last-child .contact-item__copy > a {
+  color: var(--accent);
+}
+
+.section-nav__link {
+  background: var(--button-bg);
+}
+
+.section-nav__link.is-active {
+  color: var(--page);
+  /* Previous: background: linear-gradient(142.17deg, #2b4bb4, #2b4bb4); */
+  background: linear-gradient(142.17deg, var(--nav-start), var(--nav-end));
+}
+
+.section-nav__link.is-active .section-nav__icon,
+.section-nav__link.is-active .section-nav__icon::before {
+  color: var(--page);
+}
+
+.section-nav__link:not(.is-active):hover .section-nav__icon,
+.section-nav__link:not(.is-active):hover .section-nav__icon::before {
+  color: var(--icon);
+}
+
+.resume-heading__icon {
+  color: var(--icon);
+}
+
+/* app.js keeps the previous fixed SVG fill (#2b4bb4); this rule lets the
+ * active palette control the rendered icon color without deleting it. */
+.resume-heading__icon .icon path {
+  fill: currentColor;
+}
+
+.timeline-item::before {
+  background: var(--bullet);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--bullet) 22%, transparent);
+}
+
+.timeline-item__title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.timeline-item__period,
+.timeline-item__description,
+.detail-list {
+  font-size: 14px;
+}
+
+#experience-list .timeline-item__description {
+  color: #111;
+}
+
+#experience-list .experience-details {
+  margin: -12px 0 16px;
+  padding-left: 18px;
+  color: #111;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+#experience-list .experience-details li::marker {
+  color: #111;
+}
+
+#experience-list .experience-details li + li {
+  margin-top: 2px;
+}
+
+#experience-list .timeline-inline-link {
+  color: var(--accent);
+}
+
+.publication-link,
+.publication-link:link,
+.publication-link:visited {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 3px 10px;
+  color: var(--button-text) !important;
+  background: var(--button-bg);
+  border: 1px solid var(--button-border);
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  transition: all 0.18s ease;
+}
+
+.publication-link:hover,
+.publication-link:focus {
+  color: var(--button-hover-text) !important;
+  background: var(--button-hover-bg);
+  border-color: var(--button-hover-border);
+  text-decoration: none;
+}
+
+.publication__meta {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin: 2px 0 8px;
+}
+
+.publication__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 16px;
+}
+
+.publication__note-inline {
+  margin-left: 6px;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.publication__award {
+  /* Previous: color: #971c1c; */
+  color: var(--award);
+  font-weight: 700;
+}
+
+.own-name {
+  font-weight: 500;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.author-marker {
+  position: relative;
+  top: -0.35em;
+  margin-left: 1px;
+  font-size: 0.7em;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+.timeline-item__inline-details {
+  margin-left: 8px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.publication__title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.publication__authors {
+  font-size: 14px;
+}
+
+.venue__name {
+  /* Previous: color: #971c1c; */
+  color: var(--venue);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.venue__year {
+  color: var(--ink);
+  font-size: 14px;
+  /* font-weight: 700; */
+}
+
+.site-footer {
+  align-items: center;
+  color: var(--footer);
+  flex-direction: column;
+  gap: 1px;
+}
+
+.site-credit {
+  align-self: flex-end;
+  font-size: 10px;
+  text-align: right;
+}
+
+.site-credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.site-credit a:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 991.98px) {
+  .hero__image {
+    /* Previous mobile settings: height: 792px; transform: translateY(-66px); */
+    height: 396px;
+    background-position: 50% 112%;
+    background-size: auto 662px;
+    transform: none;
+  }
+
+  .section-nav {
+    box-shadow: 0 20px 40px rgba(42, 65, 91, 0.18);
+  }
+
+  .section-nav__link.is-active {
+    color: var(--accent);
+    background: transparent;
+  }
+
+  .section-nav__link.is-active .section-nav__icon,
+  .section-nav__link.is-active .section-nav__icon::before {
+    color: var(--accent);
+  }
+
+  .section-nav__link {
+    background: transparent;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .contact-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, 41.5781px);
+    grid-auto-flow: column;
+    min-height: 119.1562px;
+    column-gap: 24px;
+  }
+
+  .contact-item {
+    text-align: left;
+  }
+
+  .sidebar {
+    height: auto;
+  }
+
+  .section-nav {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    height: 142px;
+    margin: 0;
+    padding: 30px;
+    justify-content: flex-start;
+    gap: 16px;
+    flex-direction: row;
+    background: var(--card);
+    border-radius: var(--radius) var(--radius) 0 0;
+    box-shadow: var(--shadow);
+  }
+
+  .section-nav__link {
+    width: 100px;
+    height: 82px;
+    flex: 0 0 100px;
+    color: var(--ink);
+    background: var(--button-bg);
+    border-radius: 16px;
+    font-size: 12px;
+  }
+
+  .section-nav__link.is-active {
+    color: var(--page);
+    background: linear-gradient(142.17deg, var(--nav-start), var(--nav-end));
+    box-shadow: -4px -4px 5px rgba(0, 0, 0, 0.1) inset,
+      4px 4px 5px rgba(255, 255, 255, 0.23) inset;
+  }
+
+  .section-nav__link.is-active .section-nav__icon,
+  .section-nav__link.is-active .section-nav__icon::before {
+    color: var(--page);
+  }
+
+  .section-nav__icon {
+    width: 28px;
+    height: 28px;
+    margin: 4px 0 4px;
+  }
+
+  .section-nav__icon::before {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  #about {
+    border-radius: 0 0 var(--radius) var(--radius);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .section-nav {
+    height: 228px;
+    padding: 24px;
+  }
+
+  .section-nav__link {
+    width: 100%;
+    max-width: 100px;
+    height: 82px;
+    flex: 0 0 82px;
+    align-self: flex-start;
+    border-radius: 16px;
+    font-size: 12px;
+  }
+
+  .section-nav__icon {
+    width: 28px;
+    height: 28px;
+    margin: 4px 0 4px;
+  }
+
+  .section-nav__icon::before {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero__image {
+    /* Enlarge the landscape photo so the house appears above the profile card. */
+    background-position: 50% 125%;
+    background-size: auto 620px;
+  }
+}

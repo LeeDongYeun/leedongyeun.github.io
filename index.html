@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Dongyeun Lee — Ph.D. student at KAIST researching efficient machine learning and generative models." />
+    <!-- Previous theme colors: #f7f7f7, #faf9f6 -->
+    <meta name="theme-color" content="#f7f7f7" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dongyeun Lee" />
+    <meta property="og:description" content="Research profile and curriculum vitae of Dongyeun Lee." />
+    <meta property="og:image" content="assets/profile.jpg" />
+    <title>Dongyeun Lee</title>
+    <link rel="icon" href="assets/profile.jpg" />
+    <link rel="stylesheet" href="styles.css?v=20260827-5" />
+    <link rel="stylesheet" href="theme.css?v=20260827-37" />
+    <script src="data.js?v=20260827-6" defer></script>
+    <script src="app.js?v=20260827-12" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#about">Skip to content</a>
+
+    <div class="hero" aria-hidden="true">
+      <div class="hero__image"></div>
+    </div>
+
+    <main class="page-shell">
+      <header class="profile-card card" aria-labelledby="profile-name">
+        <div class="profile-card__identity">
+          <figure class="portrait-wrap">
+            <img id="profile-image" class="portrait" src="assets/profile.jpg" alt="Portrait of Dongyeun Lee" />
+          </figure>
+
+          <div class="identity-copy">
+            <h1 id="profile-name" class="profile-name">Dongyeun Lee</h1>
+            <p id="profile-title" class="profile-title">Ph.D. Student @ KAIST</p>
+            <nav aria-label="Social profiles">
+              <ul id="social-links" class="social-links"></ul>
+            </nav>
+          </div>
+        </div>
+
+        <ul id="contact-list" class="contact-list" aria-label="Contact information"></ul>
+      </header>
+
+      <div class="content-layout">
+        <aside class="sidebar">
+          <nav class="section-nav card" aria-label="Page sections">
+            <a class="section-nav__link is-active" href="#about" data-section="about">
+              <span class="section-nav__icon" data-icon="user" aria-hidden="true"></span>
+              <span>About</span>
+            </a>
+            <a class="section-nav__link" href="#resume" data-section="resume">
+              <span class="section-nav__icon" data-icon="file" aria-hidden="true"></span>
+              <span>Resume</span>
+            </a>
+          </nav>
+        </aside>
+
+        <div class="content-column">
+          <section id="about" class="panel card" aria-labelledby="about-title">
+            <h2 id="about-title" class="section-title">About Me</h2>
+            <div id="about-content" class="about-copy"></div>
+          </section>
+
+          <section id="resume" class="panel card" aria-labelledby="resume-title">
+            <h2 id="resume-title" class="section-title">Resume</h2>
+
+            <section class="resume-section" aria-labelledby="publications-title">
+              <h3 id="publications-title" class="resume-heading">
+                <span class="resume-heading__icon" data-icon="publication" aria-hidden="true"></span>
+                Publications
+              </h3>
+              <div id="publication-list" class="timeline timeline--publications"></div>
+            </section>
+
+            <section class="resume-section" aria-labelledby="education-title">
+              <h3 id="education-title" class="resume-heading">
+                <span class="resume-heading__icon" data-icon="education" aria-hidden="true"></span>
+                Education
+              </h3>
+              <div id="education-list" class="timeline"></div>
+            </section>
+
+            <section class="resume-section" aria-labelledby="experience-title">
+              <h3 id="experience-title" class="resume-heading">
+                <span class="resume-heading__icon" data-icon="briefcase" aria-hidden="true"></span>
+                Work Experience
+              </h3>
+              <div id="experience-list" class="timeline"></div>
+            </section>
+
+            <section class="resume-section" aria-labelledby="awards-title">
+              <h3 id="awards-title" class="resume-heading">
+                <span class="resume-heading__icon" data-icon="award" aria-hidden="true"></span>
+                Awards
+              </h3>
+              <div id="award-list" class="timeline"></div>
+            </section>
+          </section>
+
+          <footer class="site-footer">
+            <span id="copyright"></span>
+            <span id="last-updated"></span>
+            <span class="site-credit">Format borrowed from <a href="https://wjuni.com/" target="_blank" rel="noreferrer">wjuni.com</a>.</span>
+          </footer>
+        </div>
+      </div>
+    </main>
+
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">
+      <span aria-hidden="true">↑</span>
+    </button>
+
+    <noscript>
+      <div class="noscript">This page needs JavaScript to load the profile data.</div>
+    </noscript>
+  </body>
+</html>
